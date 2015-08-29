@@ -144,10 +144,10 @@ namespace GetIPv4Address
         public void ShowContent(string frmName, Type frmType)
         {
             //BaseForm bf = (BaseForm)(Activator.CreateInstance(frmType));
-            MyTestForm bf = new MyTestForm();
+            BaseForm bf = new BaseForm();
             bf.MdiParent = this;
             bf.WindowState = FormWindowState.Maximized;
-            bf.Show();
+            bf.Show(this.dockPanel);
             bf.Activate();
             //bf.Show(this.dockPanel);
         }

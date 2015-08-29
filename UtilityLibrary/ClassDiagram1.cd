@@ -1,0 +1,743 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="UtilityLibrary.Collections.CollectionWithEvents" Collapsed="true">
+    <Position X="1.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEAAAAAJQIAGgQBAEgAAAAAAAIAgAAAAQACABEAAA=</HashCode>
+      <FileName>Collections\CollectionWithEvents.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.Collections.MenuCommandCollection" Collapsed="true">
+    <Position X="0.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EEIQBUACgAAAAAAACAAAhAAAAAiACAAAAAAIEAAUAAA=</HashCode>
+      <FileName>Collections\MenuCommandCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.Collections.MenuItemExCollection" Collapsed="true">
+    <Position X="2.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEIAAEAAAAAAAAAACAAABAAAAAAAAAAAAAAAAAAUAAA=</HashCode>
+      <FileName>Collections\MenuItemExCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.Collections.OutlookBarBandCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEYAAAAAABAQAAAQDQAAFAAAAAAJEgBAAAAAAAAUAAE=</HashCode>
+      <FileName>Collections\OutlookBarBandCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UtilityLibrary.Collections.OutlookBarItemCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEYAAEAAABAQAAAQDQAAFAAAAAAJEgBACAAAAAAUAAE=</HashCode>
+      <FileName>Collections\OutlookBarItemCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UtilityLibrary.Collections.RebarBandCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEIAEAAAAAAAAAAADAAABAAAAAAAAAAAAAAQAABQAAA=</HashCode>
+      <FileName>Collections\RebarBandCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UtilityLibrary.Collections.ToolBarItemCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEcAFEAICBQAQCAQDAAABAAAAAAAggCAEAAAAAAUACA=</HashCode>
+      <FileName>Collections\ToolBarItemCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UtilityLibrary.Combos.CheckCombo" Collapsed="true">
+    <Position X="7.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AFAACAAAAAAAAIAAAAAAAAKAQAAAAAgAAAAAIAAAAgA=</HashCode>
+      <FileName>Combos\CheckCombo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.Combos.CustomCombo" Collapsed="true">
+    <Position X="6.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KQLALE4MKQhEiwDxDqNgAgLCAFIKYBUKkFMo4FAAgAA=</HashCode>
+      <FileName>Combos\CustomComboBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.Combos.DateCombo" Collapsed="true">
+    <Position X="5.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAQAAAAEAAAAAAAEBAEAABAAAAECCAAgIIAAAAA=</HashCode>
+      <FileName>Combos\DateCombo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.Combos.TreeCombo" Collapsed="true">
+    <Position X="7.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IECgCCQARAhMAMAAAAAAAACACBAQAIEAEEiAIRAAAAA=</HashCode>
+      <FileName>Combos\TreeCombo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.General.TreeViewUtils" Collapsed="true">
+    <Position X="12.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAQCAAABAAAAAAAAAACAAQAAAAAAAIIAABAAA=</HashCode>
+      <FileName>Combos\TreeViewUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.General.ArrayUtils" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>General\ArrayUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.General.BooleanFlagsMap" Collapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAiAAAgAQEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>General\BooleanFlagsMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.General.ColorUtil" Collapsed="true">
+    <Position X="18" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>lAWgACMAIAIjBwAAAAqAiAgEgIKSAAggQhUAQASgBIA=</HashCode>
+      <FileName>General\ColorUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.General.CustomDragger" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAwQAAQAAAKEAJAgAAAEAAAAAAMAAAACAAAEGAAUI=</HashCode>
+      <FileName>General\CommonDragging.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.General.GDIUtils" Collapsed="true">
+    <Position X="21.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABVAQBFAAiASSGAJIAAQCgABAhAAgABFAQBwAgACIgA=</HashCode>
+      <FileName>General\GDIUtilities.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.General.ResourceUtil" Collapsed="true">
+    <Position X="19.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAIAAAAAAAAAAIAIAAAAUAAAAAAA=</HashCode>
+      <FileName>General\ResourceUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.General.TextUtil" Collapsed="true">
+    <Position X="14.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEEAAAAIAAAAAAAIAAAAAgAAAgAAAAAAAAAAAAIA=</HashCode>
+      <FileName>General\TextUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.CommandBars.ChevronMenu" Collapsed="true">
+    <Position X="8.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAACACAAAAAEAAACIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CommandBars\ChevronMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.CommandBars.CommandBarMenu" Collapsed="true">
+    <Position X="19.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAUAgAIAAAAAAAEAgGAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CommandBars\CommandBarMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.CommandBars.ReBarDesigner" Collapsed="true">
+    <Position X="14.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>CommandBars\Rebar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.CommandBars.ReBar" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgABJAIALCFgkEBAgoiCAACFYBEQhAQiKABwRADSsAE=</HashCode>
+      <FileName>CommandBars\Rebar.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UtilityLibrary.CommandBars.ToolBarEx" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ikggVBcEb0FBiAIWAtgNAQEtUPABoAUEOEqBT4CCAQA=</HashCode>
+      <FileName>CommandBars\ToolBarEx.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UtilityLibrary.CommandBars.ToolBarItem" Collapsed="true">
+    <Position X="19.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>pAIAshBiJIChR7HAHQBCkS0BBEBBuBlIrAeTPSAYQwI=</HashCode>
+      <FileName>CommandBars\ToolBarItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.DateTimeControls.CalendarViewEx" Collapsed="true">
+    <Position X="18" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>pwnSwIIIZhJ0wIboQPhIBAIihFaBQAMFTgE4wQJARA4=</HashCode>
+      <FileName>DateTimeControls\CalendarViewEx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.DateTimeControls.HeaderControl" Collapsed="true">
+    <Position X="23.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQSAgAAAEIQAEAAATACACABAAAAAAABBAAIAAAQAAAA=</HashCode>
+      <FileName>DateTimeControls\DateTimeHeader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.DateTimeControls.EditNumbers" Collapsed="true">
+    <Position X="16.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AhCAAIAKgZAwAAEEVJBAgFABAEAIBAEABgCgQCCAACA=</HashCode>
+      <FileName>DateTimeControls\NumberEditor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.DateTimeControls.SpinControl" Collapsed="true">
+    <Position X="23.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgCAACAggJBQADEA1JQoABAhwACJLAAAIAAAwAgCwAA=</HashCode>
+      <FileName>DateTimeControls\SpinControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.DateTimeControls.TimeEditor" Collapsed="true">
+    <Position X="16.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IxAAQwAIAbAgggeCRAiAoAAWAEAAAAAACEBkIEABpwE=</HashCode>
+      <FileName>DateTimeControls\TimeEditor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.Dialogs.FolderSelectDialog" Collapsed="true">
+    <Position X="19.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>pAUAEAAAAICghEACEICARACGDAwGAAgIAJAGQCgAACg=</HashCode>
+      <FileName>Dialogs\FolderSelectDialog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.Gantt_Chart.GanttAnhorsBar" Collapsed="true">
+    <Position X="0.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAACAAQCAAAAAQAgAAAAAAAAAAAAAIAABAAAAEAY=</HashCode>
+      <FileName>Gantt Chart\GanttBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.Gantt_Chart.GanttProgressBar" Collapsed="true">
+    <Position X="0.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABSNAAYIoNBQAAUg1phAERABABgBBQAgiGAJihQQgAI=</HashCode>
+      <FileName>Gantt Chart\GanttProgressBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.WinControls.DoubleBuffer" Collapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAACAAAAAAAAQAAAAAAARAAAAAAABAAEAAAIA=</HashCode>
+      <FileName>General\DoubleBuffer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.WinControls.TaskbarNotifier" Collapsed="true">
+    <Position X="11" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GoBGomlBJrQBAGB4uAQBCSU6AGTGvAggBiAJAAEAIgE=</HashCode>
+      <FileName>Notification\TaskbarNotifier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.WinControls.OutlookBar" Collapsed="true">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IBHPnAdraKhVIZyDf8kTCUHO2tT7JQhBqZxvyKeNGQU=</HashCode>
+      <FileName>OutlookBar\OutlookBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.WinControls.OutlookBarBand" Collapsed="true">
+    <Position X="12.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ggDIAAKACCAECGCIB0iKCCRCACAIAgAEAAQgAEACYAA=</HashCode>
+      <FileName>OutlookBar\OutlookBarBand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.WinControls.OutlookBarItem" Collapsed="true">
+    <Position X="16.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABACEAQABgCgQgCABBAAgQgAAEBJAAhAAAASCAAARBA=</HashCode>
+      <FileName>OutlookBar\OutlookBarItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.WinControls.ButtonEx" Collapsed="true">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IhDBAAAIIAAABAIAAEBAAAAQAAAAQAAAIAAEAAACAIA=</HashCode>
+      <FileName>WinControls\ButtonEx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.WinControls.CheckBoxEx" Collapsed="true">
+    <Position X="19.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQBAQAAIIAAAIAAABBBAAIgAGFAAAAAAAAAAYACAAAA=</HashCode>
+      <FileName>WinControls\CheckBoxEx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.WinControls.ColorComboBox" Collapsed="true">
+    <Position X="3" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAABABACAAAAAABQAAgAAgAAAQAAAEAAAAAAAE=</HashCode>
+      <FileName>WinControls\ColorComboBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.WinControls.ColorListBox" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAACAAAAAAQAQAAFAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>WinControls\ColorListBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.WinControls.NewColorArgs" Collapsed="true">
+    <Position X="19.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>WinControls\ColorPicker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.WinControls.ArrowButton" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IBCAAAAIAAAAAQAAAEhAAIAAAACAAAAAIAAEQAAAAAA=</HashCode>
+      <FileName>WinControls\ColorPicker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.WinControls.ColorPickerEditCtrlHook" Collapsed="true">
+    <Position X="16.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAEAAAAAAAAAABAAAAAAAQAAAAAA=</HashCode>
+      <FileName>WinControls\ColorPicker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.WinControls.ColorPicker" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IoPIEAAICGECAABgSgDBGKACgCCIIAgIAAAkwABAAQQ=</HashCode>
+      <FileName>WinControls\ColorPicker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.WinControls.ColorChangeArgs" Collapsed="true">
+    <Position X="21.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAACAAAQAgAAA=</HashCode>
+      <FileName>WinControls\ColorPickerDropDown.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.WinControls.ColorPickerDropDown" Collapsed="true">
+    <Position X="14.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AADAQAAAACQAHaAQ4YSCCAAmkAKAAbABgKAASUBACBA=</HashCode>
+      <FileName>WinControls\ColorPickerDropDown.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.WinControls.ComboBoxBase" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgLAAAAoAAJQAAAmAELAYIAgBAgACAAoCBACQAAABAA=</HashCode>
+      <FileName>WinControls\ComboBoxBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.WinControls.CustomColorDlg" Collapsed="true">
+    <Position X="23.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QCBAABIEECAGABgEAACAABkWgAK9MoIAAoAIYIAACiU=</HashCode>
+      <FileName>WinControls\CustomColorDlg.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.WinControls.FontComboBox" Collapsed="true">
+    <Position X="5.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAABAABACIAAAAAAQAAAAAhAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>WinControls\FontCombobox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.WinControls.ImageComboBox" Collapsed="true">
+    <Position X="7.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAABQCAAFAAEDQAAAAAgAABQAAAAAAAAQAAA=</HashCode>
+      <FileName>WinControls\ImageComboBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.WinControls.NotifyIconEx" Collapsed="true">
+    <Position X="21.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ogQAJASABiCAQgJhEBKGJUgAAECBAEQIBBDRCAFAxjw=</HashCode>
+      <FileName>WinControls\NotifyIconEx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.WinControls.NumericTextBox" Collapsed="true">
+    <Position X="23.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgDAAKAAAAAAgAAAAAAAAAACAAAAAIAAAAAQgAAAAAA=</HashCode>
+      <FileName>WinControls\NumericTextBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.WinControls.PictureBoxEx" Collapsed="true">
+    <Position X="19.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAADAAAAAAAAAAAAQAAAEAAAAEAAAAAAAAAQAA=</HashCode>
+      <FileName>WinControls\PictureBoxEx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.WinControls.ProgressBarEx" Collapsed="true">
+    <Position X="21.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>+QKSBETs4Bo1maIxYFUgCMESSF5YgUnGrBEmZYEAIjQ=</HashCode>
+      <FileName>WinControls\ProgressBarEx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.WinControls.RadioButtonEx" Collapsed="true">
+    <Position X="23.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IABAAAAIAAAAAAAEAABAAIAAABAAAAAAAAAAQAAAACA=</HashCode>
+      <FileName>WinControls\RadioButtonEx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.WinControls.TextBoxEx" Collapsed="true">
+    <Position X="12.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IABAAAAIAAAAAAAAAABEAIAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>WinControls\TextBoxEx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.WinControls.TextComboBox" Collapsed="true">
+    <Position X="0.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAEAAQAAAAAgAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>WinControls\TextComboBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.WinControls.TreeViewEx" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEICAAAFCBAAAgAIAAAAAAACQAAAAACAABCQAACAAA=</HashCode>
+      <FileName>WinControls\TreeViewEx.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UtilityLibrary.Menus.ColorGroup" Collapsed="true">
+    <Position X="23.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAACAAAEAAoAAAgKAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Menus\ColorGroup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.Menus.ContextMenuEx" Collapsed="true">
+    <Position X="21.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAARAAAABACAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Menus\ContextPopup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.Menus.DrawCommand" Collapsed="true">
+    <Position X="14.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAEQABAAAIAEAAIAAAARQBEAIhCQgAADgBAAAAI=</HashCode>
+      <FileName>Menus\DrawCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.Menus.MainMenuEx" Collapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAARAAAABACAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Menus\MainMenuEx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.Menus.MenuCommand" Collapsed="true">
+    <Position X="14.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAAAAAACCAAICxgACUEQgClAAAAFAIAABBiAMIQgA=</HashCode>
+      <FileName>Menus\MenuCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.Menus.MenuControl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkHI0JAIgIKohKMp8SAARcQQELeAQAGAJIAJ6CAvAEA=</HashCode>
+      <FileName>Menus\MenuControl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UtilityLibrary.Menus.MenuItemEx" Collapsed="true">
+    <Position X="18" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RALAAAIQQCAkAVQBAQsAQTkAhQdAQiAAARVkAAmMYAA=</HashCode>
+      <FileName>Menus\MenuItemEx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.Menus.FocusCatcher" Collapsed="true">
+    <Position X="18" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Menus\PopupMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.Menus.PopupMenu" Collapsed="true">
+    <Position X="8.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEBAhEGQEofEcXJQlIoQEHmwTGAEKAhgKlSEAKKZg=</HashCode>
+      <FileName>Menus\PopupMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.Notification.ToolTipEx" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RWSBBgQCIKAIBCsCIEAAhAAABRAjIAArApACQLCECEE=</HashCode>
+      <FileName>Notification\ToolTipEx.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UtilityLibrary.Serialization.RegistrySerialization" Collapsed="true">
+    <Position X="16.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAEAAAAIAIAAAhCAAAAAABAAAAgABACBAAAAwgIog=</HashCode>
+      <FileName>Serialization\RegistrySerialization.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.Serialization.SerializationEventArgs" Collapsed="true">
+    <Position X="21.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAggA=</HashCode>
+      <FileName>Serialization\RegistrySerialization.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.Serialization.RegistrySerialize" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAoABAAAAAARQgAAAAAgAABAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Serialization\RegistrySerializeImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UtilityLibrary.Serialization.XMLSerialize" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CEAAFIAB4CBgAAAAiQQgAAABQhAABAAECAZAAAAAAiA=</HashCode>
+      <FileName>Serialization\XMLSerializeImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UtilityLibrary.Wizards.LineFrame" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAEAAACABAAAAABgAAAABAAAAAAAACAAAAAAAAiA=</HashCode>
+      <FileName>Wizards\LineFrame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.Wizards.WizardFinalPage" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAACAAACEgAAAAABCBAAgCAAAAQAAACAAQAIQAABA=</HashCode>
+      <FileName>Wizards\WizardFinalPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.Wizards.WizardForm" Collapsed="true">
+    <Position X="14.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>B0AloUEAQGEMRIE1BATIUcgDoAAAQGjQHgBAKwJBYAg=</HashCode>
+      <FileName>Wizards\WizardForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.Wizards.WizardPageBase" Collapsed="true">
+    <Position X="1.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QATgAAACBTEgAGAARZCBAQADAEgAIAAACEEgAAAgYBA=</HashCode>
+      <FileName>Wizards\WizardPageBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UtilityLibrary.Wizards.WizardWelcomePage" Collapsed="true">
+    <Position X="2.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQQAACAAACEgAAACQBCBAAgCAAAAQAAACAAQAIAAgBA=</HashCode>
+      <FileName>Wizards\WizardWelcomePage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="UtilityLibrary.CommandBars.IChevron" Collapsed="true">
+    <Position X="11" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CommandBars\ToolBarEx.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="UtilityLibrary.Serialization.ISerializator" Collapsed="true">
+    <Position X="5.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAoABAAAAAAQQAAAAAAgAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Serialization\InterfaceSerialization.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="UtilityLibrary.Serialization.IRootSerializator" Collapsed="true">
+    <Position X="5.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAACAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Serialization\InterfaceSerialization.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="UtilityLibrary.General.VisualStyle" Collapsed="true">
+    <Position X="21.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>General\Enumerations.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UtilityLibrary.General.Direction" Collapsed="true">
+    <Position X="16.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>General\Enumerations.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UtilityLibrary.General.DrawState" Collapsed="true">
+    <Position X="18" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAIAAAAAAAgAAAEAAA=</HashCode>
+      <FileName>General\Enumerations.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UtilityLibrary.General.Canvas3DStyle" Collapsed="true">
+    <Position X="12.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABMAAAAAAEACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>General\GDIUtilities.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UtilityLibrary.General.HightlightStyle" Collapsed="true">
+    <Position X="19.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAI=</HashCode>
+      <FileName>General\GDIUtilities.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UtilityLibrary.CommandBars.TBarType" Collapsed="true">
+    <Position X="18" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>CommandBars\ToolBarEx.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UtilityLibrary.CommandBars.ToolBarItemStyle" Collapsed="true">
+    <Position X="19.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAABAAAgAAACAAAAA=</HashCode>
+      <FileName>CommandBars\ToolBarItem.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UtilityLibrary.WinControls.TaskbarStates" Collapsed="true">
+    <Position X="16.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgBAAAAAAAAAAAAAAAAAAAAAAgAAAAQAA=</HashCode>
+      <FileName>Notification\TaskbarNotifier.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UtilityLibrary.WinControls.OutlookBarCheckStyle" Collapsed="true">
+    <Position X="12.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAQ=</HashCode>
+      <FileName>OutlookBar\OutlookBar.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UtilityLibrary.WinControls.OutlookBarProperty" Collapsed="true">
+    <Position X="14.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAQAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>OutlookBar\OutlookBar.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UtilityLibrary.WinControls.ItemSizeType" Collapsed="true">
+    <Position X="11" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAIAAAAEAAAA=</HashCode>
+      <FileName>OutlookBar\OutlookBar.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UtilityLibrary.WinControls.IconView" Collapsed="true">
+    <Position X="23.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OutlookBar\OutlookBar.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UtilityLibrary.WinControls.HitTestType" Collapsed="true">
+    <Position X="21.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BCAAAAAAAAAAAACAAABgAAAEgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OutlookBar\OutlookBar.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UtilityLibrary.WinControls.ContextMenuType" Collapsed="true">
+    <Position X="14.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAgAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OutlookBar\OutlookBar.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UtilityLibrary.WinControls.BorderType" Collapsed="true">
+    <Position X="11" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>OutlookBar\OutlookBar.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="UtilityLibrary.Collections.CollectionClear" Collapsed="true">
+    <Position X="12.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections\CollectionWithEvents.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="UtilityLibrary.Collections.CollectionChange" Collapsed="true">
+    <Position X="11" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Collections\CollectionWithEvents.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="UtilityLibrary.Collections.CollectionSet" Collapsed="true">
+    <Position X="14.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEBAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Collections\CollectionWithEvents.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="UtilityLibrary.WinControls.OutlookBarPropertyChangedHandler" Collapsed="true">
+    <Position X="21.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OutlookBar\OutlookBar.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="UtilityLibrary.WinControls.OutlookBarItemClickedHandler" Collapsed="true">
+    <Position X="18" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>OutlookBar\OutlookBar.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="UtilityLibrary.WinControls.OutlookBarItemDroppedHandler" Collapsed="true">
+    <Position X="19.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>OutlookBar\OutlookBar.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="UtilityLibrary.WinControls.ColorChangeEventHandler" Collapsed="true">
+    <Position X="16.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WinControls\ColorPickerDropDown.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

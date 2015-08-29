@@ -58,7 +58,6 @@
             this.dockPanel.ActiveAutoHideContent = null;
             this.dockPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dockPanel.DockBackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.dockPanel.DocumentStyle = WeifenLuo.WinFormsUI.Docking.DocumentStyle.SystemMdi;
             this.dockPanel.Location = new System.Drawing.Point(0, 50);
             this.dockPanel.Name = "dockPanel";
             this.dockPanel.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -173,6 +172,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MainForm";
             this.Text = "MainForm";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
