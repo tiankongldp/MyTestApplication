@@ -29,6 +29,8 @@ Partial Class Form1
         Me.AutoWebcamjpg3 = New MultiWebPage.AutoWebcamjpg()
         Me.AutoWebcamjpg4 = New MultiWebPage.AutoWebcamjpg()
         Me.SplitContainer2 = New System.Windows.Forms.SplitContainer()
+        Me.btnClearHost = New System.Windows.Forms.Button()
+        Me.btnCombineIP = New System.Windows.Forms.Button()
         Me.btnLoadNext = New System.Windows.Forms.Button()
         Me.LbtnoadPre = New System.Windows.Forms.Button()
         Me.btnLoadXML = New System.Windows.Forms.Button()
@@ -124,12 +126,15 @@ Partial Class Form1
         '
         Me.SplitContainer2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.SplitContainer2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.SplitContainer2.FixedPanel = System.Windows.Forms.FixedPanel.Panel1
         Me.SplitContainer2.Location = New System.Drawing.Point(0, 0)
         Me.SplitContainer2.Name = "SplitContainer2"
         Me.SplitContainer2.Orientation = System.Windows.Forms.Orientation.Horizontal
         '
         'SplitContainer2.Panel1
         '
+        Me.SplitContainer2.Panel1.Controls.Add(Me.btnClearHost)
+        Me.SplitContainer2.Panel1.Controls.Add(Me.btnCombineIP)
         Me.SplitContainer2.Panel1.Controls.Add(Me.btnLoadNext)
         Me.SplitContainer2.Panel1.Controls.Add(Me.LbtnoadPre)
         Me.SplitContainer2.Panel1.Controls.Add(Me.btnLoadXML)
@@ -138,32 +143,50 @@ Partial Class Form1
         '
         Me.SplitContainer2.Panel2.Controls.Add(Me.DataGridView1)
         Me.SplitContainer2.Size = New System.Drawing.Size(179, 498)
-        Me.SplitContainer2.SplitterDistance = 96
+        Me.SplitContainer2.SplitterDistance = 115
         Me.SplitContainer2.TabIndex = 1
+        '
+        'btnClearHost
+        '
+        Me.btnClearHost.Location = New System.Drawing.Point(20, 28)
+        Me.btnClearHost.Name = "btnClearHost"
+        Me.btnClearHost.Size = New System.Drawing.Size(146, 23)
+        Me.btnClearHost.TabIndex = 2
+        Me.btnClearHost.Text = "清理xml中无用host"
+        Me.btnClearHost.UseVisualStyleBackColor = True
+        '
+        'btnCombineIP
+        '
+        Me.btnCombineIP.Location = New System.Drawing.Point(20, 3)
+        Me.btnCombineIP.Name = "btnCombineIP"
+        Me.btnCombineIP.Size = New System.Drawing.Size(146, 23)
+        Me.btnCombineIP.TabIndex = 2
+        Me.btnCombineIP.Text = "合并为Nmap ip段"
+        Me.btnCombineIP.UseVisualStyleBackColor = True
         '
         'btnLoadNext
         '
-        Me.btnLoadNext.Location = New System.Drawing.Point(97, 53)
+        Me.btnLoadNext.Location = New System.Drawing.Point(97, 82)
         Me.btnLoadNext.Name = "btnLoadNext"
-        Me.btnLoadNext.Size = New System.Drawing.Size(56, 23)
+        Me.btnLoadNext.Size = New System.Drawing.Size(69, 23)
         Me.btnLoadNext.TabIndex = 1
         Me.btnLoadNext.Text = "后四个"
         Me.btnLoadNext.UseVisualStyleBackColor = True
         '
         'LbtnoadPre
         '
-        Me.LbtnoadPre.Location = New System.Drawing.Point(20, 53)
+        Me.LbtnoadPre.Location = New System.Drawing.Point(20, 82)
         Me.LbtnoadPre.Name = "LbtnoadPre"
-        Me.LbtnoadPre.Size = New System.Drawing.Size(56, 23)
+        Me.LbtnoadPre.Size = New System.Drawing.Size(69, 23)
         Me.LbtnoadPre.TabIndex = 1
         Me.LbtnoadPre.Text = "前四个"
         Me.LbtnoadPre.UseVisualStyleBackColor = True
         '
         'btnLoadXML
         '
-        Me.btnLoadXML.Location = New System.Drawing.Point(20, 12)
+        Me.btnLoadXML.Location = New System.Drawing.Point(20, 54)
         Me.btnLoadXML.Name = "btnLoadXML"
-        Me.btnLoadXML.Size = New System.Drawing.Size(133, 23)
+        Me.btnLoadXML.Size = New System.Drawing.Size(146, 23)
         Me.btnLoadXML.TabIndex = 0
         Me.btnLoadXML.Text = "加载扫描结果xml"
         Me.btnLoadXML.UseVisualStyleBackColor = True
@@ -184,7 +207,7 @@ Partial Class Form1
         Me.DataGridView1.RowHeadersVisible = False
         Me.DataGridView1.RowTemplate.Height = 23
         Me.DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.DataGridView1.Size = New System.Drawing.Size(177, 396)
+        Me.DataGridView1.Size = New System.Drawing.Size(177, 377)
         Me.DataGridView1.TabIndex = 0
         '
         'No
@@ -250,13 +273,15 @@ Partial Class Form1
     Friend WithEvents btnLoadXML As System.Windows.Forms.Button
     Friend WithEvents AutoWebcamjpg1 As MultiWebPage.AutoWebcamjpg
     Friend WithEvents DataGridView1 As System.Windows.Forms.DataGridView
-    Friend WithEvents No As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents IP As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents PORT As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents url As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents OpenFileDialog1 As System.Windows.Forms.OpenFileDialog
     Friend WithEvents AutoWebcamjpg2 As MultiWebPage.AutoWebcamjpg
     Friend WithEvents AutoWebcamjpg3 As MultiWebPage.AutoWebcamjpg
     Friend WithEvents AutoWebcamjpg4 As MultiWebPage.AutoWebcamjpg
+    Friend WithEvents btnCombineIP As System.Windows.Forms.Button
+    Friend WithEvents No As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents IP As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents PORT As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents url As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents btnClearHost As System.Windows.Forms.Button
 
 End Class
